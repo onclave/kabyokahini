@@ -1,0 +1,26 @@
+<div fxLayout="row wrap" fxLayoutAlign="center start" fxLayoutGap="15px" class="kk-margin-top-5vh">
+    <mat-card class="kk-content-card mat-elevation-z8" *ngFor="let item of [1, 2, 3, 4]; index as i">
+        <mat-card-header>
+            <div mat-card-avatar>
+                <img src="assets/images/tagore.jpg" class="kk-content-card-avatar">
+            </div>
+            <mat-card-title class="kk-font-gal kk-color-seven kk-letter-spacing-2px">খুব ভালো থেকো</mat-card-title>
+            <mat-card-subtitle class="kk-font-bd">নামবিহীন</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/images/content-image-1.svg">
+        <mat-card-content>
+            <p class="kk-font-bd kk-font-size-1-2-em kk-line-height-1-8-em kk-letter-spacing-2px">আপনি এখানে কেবল মজাদার বাক্যাংশ এবং অভিব্যক্তি পাবেন
+            না, তবে অনেকগুলি মজার কথা। এই সাইটের সেরা জিনিসগুলির মধ্যে।</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <div fxLayout="row" fxLayoutAlign="end center">
+                <button mat-icon-button class="kk-color-four">
+                    <mat-icon>favorite</mat-icon>
+                </button>
+                <button mat-icon-button class="kk-color-four">
+                    <mat-icon>bookmark</mat-icon>
+                </button>
+            </div>
+        </mat-card-actions>
+    </mat-card>
+</div>

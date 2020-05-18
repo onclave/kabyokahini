@@ -1,0 +1,30 @@
+.kk-body {
+    width: 100%;
+    height: 100%;
+}
+
+.kk-fab-menu {
+    position: fixed;
+    left: 3%;
+    bottom: 3%;
+    opacity: 1;
+    z-index: 100;
+}
+
+.kk-fab-menu-button {
+    background-color: #FFFAF0 !important;
+    color: #A0522D !important;
+}
+
+.kk-content {
+    max-width: 100%;
+    overflow-y: auto;
+    max-height: 100%;
+    scrollbar-width: none;
+}
+
+.kk-footer {
+    margin-top: 50px;
+    min-height: 50vh;
+    background-color: rgba(51, 52, 53, 1);
+}

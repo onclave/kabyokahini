@@ -1,3 +1,24 @@
 <section class="kk-body">
-  <span>Kabyo Kahini</span>
+    <div class="kk-content">
+        <router-outlet></router-outlet>
+        <footer fxLayout="column" fxLayoutAlign="end center" class="kk-footer">
+            <span class="kk-margin-bottom-10px kk-color-three kk-letter-spacing-2px kk-non-selectable kk-no-focus">Made with <span
+            class="kk-color-two">&hearts;</span> by Debabrata Acharya</span>
+        </footer>
+    </div>
+    <div class="kk-fab-menu">
+        <button mat-fab [matMenuTriggerFor]="menu" color="primary" class="kk-fab-menu-button">
+            <mat-icon>import_contacts</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+                <mat-icon class="kk-color-two">drafts</mat-icon>
+                <span class="kk-font-mn kk-font-size-1-7-em kk-color-four">submit your work</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon class="kk-color-two">home</mat-icon>
+                <span class="kk-font-mn kk-font-size-1-7-em kk-color-four">home</span>
+            </button>
+        </mat-menu>
+    </div>
 </section>
