@@ -1,0 +1,12 @@
+.kk-fab-menu {
+	position: fixed;
+	left: 3%;
+	bottom: 3%;
+	opacity: 1;
+	z-index: 100;
+}
+
+.kk-fab-menu-button {
+	background-color: #FFFAF0 !important;
+	color: #A0522D !important;
+}
